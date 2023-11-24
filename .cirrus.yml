@@ -1,4 +1,4 @@
-test_task:
+myfirst_task:
   container:
-    image: openjdk:latest
-  test_script: ./gradlew test
+    image: ubuntu:latest
+  myfirst_script: echo "Hello World"
