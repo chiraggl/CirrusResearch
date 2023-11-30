@@ -1,4 +1,6 @@
 check_task:
+  container:
+    image: ubuntu:latest
   check_script:
     - echo "Here comes more than one script!"
     - printenv
