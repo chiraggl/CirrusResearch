@@ -1,4 +1,4 @@
 myfirst_task:
   container:
     image: ubuntu:latest
-  myfirst_script: echo "Hello World"
+  myfirs_script: echo "Hello World"
