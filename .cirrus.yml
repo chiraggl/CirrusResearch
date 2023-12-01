@@ -7,3 +7,5 @@ test_task:
     fingerprint_script:
       - echo $CIRRUS_OS
       - node --version
+    populate_script: 
+      - npm install
