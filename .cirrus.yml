@@ -8,4 +8,4 @@ test_task:
       - echo $CIRRUS_OS
       - node --version
     populate_script: 
-      - npm install
+      - npm install express
